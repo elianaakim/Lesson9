@@ -9,18 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello everyone!")
+        Text("Hello my kwk members!")
             .font(.title)
             .fontWeight(.bold)
-        Text("My name is Kevin!")
+        Text("My name is Eliana.")
             .font(.title)
             .fontWeight(.bold)
         VStack(alignment: .leading, spacing: 20.0) {
-            Image("puppy1")
+            Image("profile")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .cornerRadius(15)
+                .cornerRadius(20)
         }
+        .padding()
+        .frame(width: 300, height: 300)
+        
     }
 }
 
