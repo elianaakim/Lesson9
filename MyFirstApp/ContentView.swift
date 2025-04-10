@@ -21,18 +21,6 @@ struct ContentView: View {
                 .aspectRatio(contentMode: .fit)
                 .cornerRadius(15)
         }
-        HStack {
-            Image("pupp2")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .cornerRadius(15)
-            Text("<- Say hi to my friend, James!")
-                .font(.title)
-                .fontWeight(.bold)
-            Spacer()
-            Text("Isn't he so cute?")
-        }
-        .padding()
     }
 }
 
